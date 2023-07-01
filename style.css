@@ -12,6 +12,7 @@ body{
 #parent-container{
     height: auto;
     width: auto;
+    max-width: 27.5rem;
     border: 0.13rem solid black;
     box-shadow: 0.19rem 0.19rem 0.63rem 0.25rem rgba(0,0,0,0.5);
     position: absolute;
@@ -29,7 +30,10 @@ body{
     padding: 1.5rem;
 }
 #display-container{
+    padding: 0.5rem;
     height: 7rem;
+    width:100%;
+    color:aquamarine;
     background: linear-gradient(to bottom,gray, white 40%, white 50%, lightgray);
     border: 0.13rem solid black;
     border-radius: 1rem;
@@ -78,6 +82,19 @@ body{
 .row-cells:active{
     transform: scale(0.85);
     transition: 0.3s;
+}
+
+#display{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0.3rem;
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-size: 4rem;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 
