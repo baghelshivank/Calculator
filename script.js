@@ -57,6 +57,7 @@ for(let i of buttons){
                 str=0;
             }
             display.innerText = str;
+            result = str;
         }
 
         else if(value=="="){
