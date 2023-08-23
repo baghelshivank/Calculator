@@ -8,8 +8,41 @@ body{
     width: 100vw;
     position: relative;
     /* background: linear-gradient(to top, #83c5d8 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); */
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+body aside{
+    display: inline-block;
+    height: 100%;
+    font-size: 2rem;
+}
+body aside #aside-list{
+    list-style: none;
+    padding: 2rem;
+}
+body aside #aside-list li{
+    margin-top: 6rem;
+}
+body aside #aside-list li div p{
+    padding: 0 1rem;
+}
+.lightblue{
+    background-color: rgba(100, 100, 255,0.5);
+}
+.lightcoral{
+    background-color: lightcoral ;
+}
+.lightseagreen{
+    background-color: lightseagreen ;
+}
+.lightslategray{
+    background-color: lightslategray ;
 }
 #parent-container{
+    display: inline-block;
     height: auto;
     width: auto;
     max-width: 27.5rem;
@@ -78,6 +111,8 @@ body{
     /* color: aliceblue; */
     background-color:#0030c2;
     box-shadow: 0 0 0.25rem 0.09rem rgb(199, 215, 230) ;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, "Helvetica Neue", sans-serif;
 }
 .row-cells:active{
     transform: scale(0.85);
