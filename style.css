@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    font-size: 14px;
+}
 body{
     height: 100vh;
     width: 100vw;
@@ -131,6 +134,8 @@ body aside #aside-list li div p{
     overflow: hidden;
     white-space: nowrap;
 }
+
+/* MEDIA QUERIES FOR MOBILE SCREENS */
 
 
 
